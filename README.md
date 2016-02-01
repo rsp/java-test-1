@@ -7,9 +7,18 @@ To co pokażę jest bardzo proste, wymaga jedynie przeglądarki - nie trzeba mie
 
 Wszystko to brzmi może trudno ale w rzeczywistości jest bardzo proste.
 
-Co będzie potrzebne
-===================
-Potrzebne będą konta w następujących serwisach, wszystkie bezpłatne:
+Wymagania
+=========
+Jedyne wymagania aby przejść poniższe kroki to:
+
+1. dowolna przeglądarka
+2. mgliste pojęcie o Javie
+
+Poza tym wystarczy wykonywac poniższe kroki:
+
+Konta i serwisy
+===============
+Potrzebne nam będą konta w następujących serwisach, wszystkie bezpłatne:
 
 1. **GitHub** to miejsce, w którym będą wszystkie kody źródłowe, wersje, informacje o problemach itp.
 2. **Gitter** to czat dotyczący tego projektu, na którym będą się pojawiać najważniejsze informacje.
