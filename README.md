@@ -34,6 +34,17 @@ Jeśli nie masz konta na GitHubie to załóż je bezpłatnie na:
 
 Podaj email, wybierz login i hasło a nastepnie kliknij potwierdzający link w mailu, który dostaniesz.
 
+Rejestracja w Gitterze
+----------------------
+Rejestracja na Gitterze wymaga trzech kliknięć:
+
+1. wejdź na https://gitter.im/
+2. kliknij "Sign up free with GitHub"
+3. kliknij "Authorize application"
+
+Nie trzeba niczego wpisywać.
+
+
 
 ... (praca w toku...)
 
