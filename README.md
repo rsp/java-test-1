@@ -38,7 +38,7 @@ Potrzebne nam będą konta w następujących serwisach, wszystkie bezpłatne:
 
 Żeby zarejestrować się na GitHubie wystarczy podać email oraz wybrać login i hasło. Rejestracja w Gitterze i Travisie nie wymaga nawet tego - wystarczy kilka kliknięć a logowanie odbywa się automatycznie przez GitHub.
 
-Na razie wystarczy nam rejestracja, nic więcej nie trzeba robić. Jeśli posiadasz już te konta to przejdź poniżej do części [Projekt](#projekt).
+Na razie wystarczy nam rejestracja, nic więcej nie trzeba robić. Jeśli posiadasz już te konta to przejdź poniżej do części [**Projekt**](#projekt).
 
 Rejestracja w GitHubie
 ----------------------
@@ -115,7 +115,7 @@ Możemy te testy uruchomić sami za pomocą komend:
 javac Test.java
 java Test
 ```
-ale po co się męczyć. Może to za nas zrobić Travis i robić to przy każdej zmianie jakiej dokonamy w naszym projekcie. Najlepiej na czterech różnych wersjach Javy, co nam szkodzi. W tym celu mamy plik [.travis.yml](.travis.yml) w którym tłumaczymy Travisowi co ma uruchamiać i na jakich wersjach Javy.
+ale po co się męczyć. Może to za nas zrobić Travis i robić to przy każdej zmianie jakiej dokonamy w naszym projekcie. Najlepiej na czterech różnych wersjach Javy, co nam szkodzi. W tym celu mamy plik [.travis.yml](.travis.yml), w którym tłumaczymy Travisowi co ma uruchamiać i na jakich wersjach Javy.
 
 Travis dzielnie odwala za nas całą robotę i wyniki najnowszych testów dostępne są zawsze na stronie:
 
@@ -129,7 +129,6 @@ Sprawdzając jeden z wyników:
 
 widzimy:
 ```
-1.63s$ javac Test.java && java Test
 1 OK
 2 ERROR!!!
 3 OK
@@ -140,23 +139,21 @@ Wygląda na to, że drugi test się nie powiódł. Ale pierwszy i trzeci przebie
 
 Naprawianie błędów
 ------------------
-Wejdź na stronę pliku [Sumator.java](Sumator.java) i jeśli widzisz błąd to kliknij przycisk **"Fork"** w prawym górnym rogu strony. Utworzy to Twoja własną wersję tego projektu, którą możesz edytować przez stronę internetową. Jednak zanim dokonasz edycji to wejdź na swój profil w Travisie:
+Wejdź na stronę pliku [Sumator.java](Sumator.java) i jeśli widzisz błąd to kliknij przycisk **Fork** w prawym górnym rogu strony. Utworzy to Twoją własną wersję tego projektu, którą możesz edytować przez stronę internetową. Jednak zanim dokonasz edycji to wejdź na swój profil w Travisie:
 
 * https://travis-ci.org/profile
 
-i kliknij przycisk **Sync account**. Na dole pojawi się Twoja wersja projektu java-test-1 na GitHubie. Włącz ją przyciskiem z lewej strony nazwy i wróć na swoją stronę projektu na GitHubie. Otwórz plik Sumator.java i kliknij ikonę ołówka nad kodem źródłowym. Zmień co uważasz za stosowne i wciśnij przycisk "Commit changes" aby zapisać zmiany.
+i kliknij przycisk **Sync account**. Na dole pojawi się Twoja wersja projektu java-test-1 na GitHubie. Włącz jej testowanie przełącznikiem z lewej strony nazwy i wróć na swoją stronę projektu na GitHubie. Otwórz swoją wersję pliku Sumator.java i kliknij ikonę ołówka nad kodem źródłowym. Zmień to co uważasz za stosowne i wciśnij przycisk **Commit changes** aby zapisać zmiany.
 
 Koniecznie również w podobny sposób dopisz się do pliku AUTHORS.md jako współautor projektu.
 
 Testowanie zmian
 ----------------
-Nastepnie wejdź na stronę https://travis-ci.org/ i po chwili pasek obok testów zmieni się na żółty i wystartują od nowa testy dla najnowszych zmian. Gdy się zakończą to zobaczysz tam wyniki testów dla Twojej wersji projektu. Jeśli zobaczysz zielony pasek obok swoich testów to znaczy, że problem jest rozwiązany i można zaproponować zmianę w głównej wersji projektu.
+Nastepnie wejdź na stronę https://travis-ci.org/ i po chwili pasek obok testów zmieni się na żółty i wystartują od nowa testy dla najnowszych zmian. Gdy się zakończą to zobaczysz tam wyniki testów dla Twojej wersji projektu. Jeśli zobaczysz zielony pasek obok swoich testów to znaczy, że problem jest rozwiązany i można zaproponować zmianę w głównej wersji projektu. Jeśli pasek będzie czerwony to też możesz zaproponować zmiany - najwyżej inni to potem poprawią.
 
 Proponowanie zmian
 ------------------
-Wróć na stronę swojej wersji projektu na GitHubie i wciśnij przycisk **New pull request** aby zaproponować włączenie swoich zmian do głównej wersji. Wyświetli się podsumowanie dokonanych zmian i różne opcje, których nie trzeba zmieniać. Wciśnięcie przycisku **Create pull request** zaproponuje zmiany w głównym projekcie rsp/java-test-1
-
-Następnie pojawi się miejsce na podanie tytułu i opisu proponowanych zmian i po wciśnięciu zielonego **Create pull request** poniżej, propozycja zostanie wysłana. Travis ponownie wykona wszystkie testy i na stronie głównego projektu pod adresem:
+Wróć na stronę swojej wersji projektu na GitHubie i wciśnij przycisk **New pull request** aby zaproponować włączenie swoich zmian do głównej wersji. Wyświetli się podsumowanie dokonanych zmian i różne opcje, których nie trzeba zmieniać. Wciśnięcie przycisku **Create pull request** wyświetli miejsce na podanie tytułu i opisu proponowanych zmian i po wciśnięciu zielonego **Create pull request** poniżej opisu, propozycja zostanie wysłana. Travis ponownie wykona wszystkie testy i na stronie głównego projektu pod adresem:
 
 * https://github.com/rsp/java-test-1/pulls
 
@@ -176,10 +173,11 @@ Słowniczek pojęć
 * **pull request** - prośba o dodanie swoich zmian do głównej wersji projektu
 * **issue** - jakiś problem lub propozycja dotycząca projektu zgłoszona na GitHubie
 
-Issues
-------
-For any bug reports or feature requests please
-[post an issue on GitHub](https://github.com/rsp/node-hapi-helpers/issues).
+Zgłaszanie błędów
+-----------------
+Wszelkie błędy i propozycje nowych funkcjonalności zgłaszajcie na stronie:
+
+* https://github.com/rsp/java-test-1/issues
 
 Autor
 -----
@@ -191,4 +189,4 @@ Patrz: [AUTHORS](AUTHORS.md)
 
 Licencja
 --------
-MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
+MIT License (Expat). Szczegóły w [LICENSE.md](LICENSE.md)
