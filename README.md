@@ -7,6 +7,16 @@ To co pokażę jest bardzo proste, wymaga jedynie przeglądarki - nie trzeba mie
 
 Wszystko to brzmi może trudno ale w rzeczywistości jest bardzo proste.
 
+Co będzie potrzebne
+===================
+Potrzebne będą konta w następujących serwisach, wszystkie bezpłatne:
+
+1. **GitHub** to miejsce, w którym będą wszystkie kody źródłowe, wersje, informacje o problemach itp.
+2. **Gitter** to czat dotyczący tego projektu, na którym będą się pojawiać najważniejsze informacje.
+3. **Travis** to system ciągłej integracji, który będzie za nas testował nasz kod.
+
+Żeby zarejestrować się na GitHubie wystarczy podać email oraz wybrać login i hasło. Rejestracja w Gitterze i Travisie nie wymaga nawet tego - wystarczy kilka kliknięć a logowanie odbywa się automatycznie przez GitHub.
+
 ... (praca w toku...)
 
 
