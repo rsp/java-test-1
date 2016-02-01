@@ -66,6 +66,27 @@ Nasz projekt to prosty program, który sumuje liczby:
 
 * [Sumator.java](Sumator.java)
 
+Metoda `sumuj()` bierze tablicę liczb cąłkowitych i zwraca ich sumę.
+
+W metodzie `main()` sumowane w ten sposbób liczby {0, 1, 2, 3} i wyświetlany jest wynik.
+
+Program kompilujemy za pomocą: `javac Sumator.java`
+
+Uruchamiamy za pomocą: `java Sumator`
+
+Wyświetla 6 więc wygląda na to, że wszystko działa.
+
+Jeśli ktoś nie ma Javy albo nie chce tego uruchamiać to musi uwierzyć na słowo.
+
+Jeśli ktoś chce sam to sprawdzić (potrzebna jest Java) to najnowszą wersję pliku z klasą można ściągnąć z:
+
+https://raw.githubusercontent.com/rsp/java-test-1/master/Sumator.java
+
+a cały projekt jako ZIP można ściągnąć z:
+
+https://github.com/rsp/java-test-1/archive/master.zip
+
+Program wygląda jakby działał dobrze ale warto byłoby przetestować go na większej liczbie danych. Mamy więc dodatkową klasę Test w pliku [Test.java](Test.java), którya sprawdza nasz sumator dla różnych innych danych.
 
 
 ... (praca w toku...)
