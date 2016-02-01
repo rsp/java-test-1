@@ -1,7 +1,14 @@
 java-test-1
 ===========
 
-Przykład testowania Javy w chmurze ... (praca w toku...)
+Przedstawię tu jak testować programy w Javie, naprawiać w nich błędy, proponować i omawiać zmiany oraz współpracować z innymi nad wspólnym projektem używając serwisów takich jak GitHub, Gitter i Travis.
+
+To co pokażę jest bardzo proste, wymaga jedynie przeglądarki - nie trzeba mieć nawet Javy - jednak każdy kto wykona poniższe czynności będzie miał wstępne pojęcie o systemach kontroli wersji, systemach ciągłej integracji oraz techniki test-driven development.
+
+Wszystko to brzmi może trudno ale w rzeczywistości jest bardzo proste.
+
+... (praca w toku...)
+
 
 Issues
 ------
