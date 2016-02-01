@@ -62,6 +62,10 @@ Również niczego nie trzeba wpisywać.
 
 Projekt
 =======
+Nasz projekt to prosty program, który sumuje liczby:
+
+* [Sumator.java](Sumator.java)
+
 
 
 ... (praca w toku...)
