@@ -100,7 +100,6 @@ java Test
 ale po co się męczyć. Może to za nas zrobić Travis i robić to przy każdej zmianie jakiej dokonamy w naszym projekcie. Najlepiej na czterech różnych wersjach Javy, co nam szkodzi. W tym celu mamy plik [.travis.yml](.travis.yml).
 
 
-
 ... (praca w toku...)
 
 
