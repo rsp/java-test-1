@@ -26,7 +26,18 @@ Potrzebne nam będą konta w następujących serwisach, wszystkie bezpłatne:
 
 Żeby zarejestrować się na GitHubie wystarczy podać email oraz wybrać login i hasło. Rejestracja w Gitterze i Travisie nie wymaga nawet tego - wystarczy kilka kliknięć a logowanie odbywa się automatycznie przez GitHub.
 
+Rejestracja w GitHubie
+----------------------
+Jeśli nie masz konta na GitHubie to załóż je bezpłatnie na:
+
+* https://github.com/join
+
+Podaj email, wybierz login i hasło a nastepnie kliknij potwierdzający link w mailu, który dostaniesz.
+
+
 ... (praca w toku...)
+
+
 
 
 Issues
