@@ -3,7 +3,7 @@ public class Sumator {
     public static int sumuj(int[] tablica) {
 
         int suma = 0;
-        for (int i = 2; i < tablica.length; i++)
+        for (int i = 0; i < tablica.length; i++)
             suma += tablica[i];
         return suma;
 
