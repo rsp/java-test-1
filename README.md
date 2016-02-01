@@ -86,7 +86,18 @@ a cały projekt jako ZIP można ściągnąć z:
 
 https://github.com/rsp/java-test-1/archive/master.zip
 
-Program wygląda jakby działał dobrze ale warto byłoby przetestować go na większej liczbie danych. Mamy więc dodatkową klasę Test w pliku [Test.java](Test.java), którya sprawdza nasz sumator dla różnych innych danych.
+Program wygląda jakby działał dobrze ale warto byłoby przetestować go na większej liczbie danych. Na razie prawidłowo sumuje nasze liczby od 0 do 3 i podaje 6 ale chcemy go przetestwoać na jeszcze jakichś innych liczbach, żeby mieć pewność, że jeśli w przyszłości zmienia nam się liczby do sumowania, to nadal będzie wszystko działać.
+
+Mamy więc dodatkową klasę Test w pliku [Test.java](Test.java), która sprawdza nasz sumator działa również dla innych danych.
+
+(Celowo nie użyłem żadnego frameworka do testów, żeby pokazać, że w testach nie ma niczego magicznego. Wystarczy program, który zwróci błąd do systemu jeśli coś jest nie tak. Narzędzia takie jak JUnit czy TestNG mogą ułatwić nam testy ale nie są wcale konieczne.)
+
+Możemy te testy uruchomić sami za pomocą komend:
+```
+javac Test.java
+java Test
+```
+ale po co się męczyć. Może to za nas zrobić Travis i robić to przy każdej zmianie jakiej dokonamy w naszym projekcie.
 
 
 ... (praca w toku...)
