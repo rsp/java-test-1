@@ -123,27 +123,25 @@ https://travis-ci.org/profile
 
 i kliknij przycisk "Sync account". Na dole pojawi się Twoja wersja projektu java-test-1 na GitHubie. Włącz ją przyciskiem z lewej strony nazwy i wróć na swoją stronę projektu na GitHubie. Otwórz plik Sumator.java i kliknij ikone ołówka nad kodem źródłowym. Zmień co uważasz za stosowne i wciśnij przycisk "Commit changes" aby zapisać zmiany.
 
-Nastepnie wejdź na stronę https://travis-ci.org/ i po chwili zobaczysz tam wyniki testów dla Twojej wersji projektu. Jeśli zobaczysz zielony pasek obok swoich testów to znaczy, że problem jest rozwiązany i można zaproponować zmianę w głównej wersji projektu.
+Nastepnie wejdź na stronę https://travis-ci.org/ i po chwili pasek obok testów zmieni się na żółty i wystartuja testy a gdy się zakończą to zobaczysz tam wyniki testów dla Twojej wersji projektu. Jeśli zobaczysz zielony pasek obok swoich testów to znaczy, że problem jest rozwiązany i można zaproponować zmianę w głównej wersji projektu.
 
-Wróć na stronę swojej wersji projektu na GitHubie i wciśnij przycisk "New pull request" aby zaproponować włączenie swoich zmian w głównej wersji. Wyświetli się podsumowanie dokonanych zmian i różne opcje, których nie trzeba zmieniać. Wciśnięcie przycisku "Create pull request" zaproponuje zmiany w głównym projekcie rsp/java-test-1
+Wróć na stronę swojej wersji projektu na GitHubie i wciśnij przycisk "New pull request" aby zaproponować włączenie swoich zmian do głównej wersji. Wyświetli się podsumowanie dokonanych zmian i różne opcje, których nie trzeba zmieniać. Wciśnięcie przycisku "Create pull request" zaproponuje zmiany w głównym projekcie rsp/java-test-1
 
-Następnie pojawi się miejsce na podanie tytułu i opisu proponowanych zmian i po wciśnięciu "Create pull request" poniżej propozycja zostanie wysłana. Travis ponownie wykona wszystkie testy i na stronie głównego projektu pojawi się informacja o nowej propozycji zmian a jego wlaściciel (czyli ja) będzie mógł jest zatwierdzić lub odrzucić, przeglądając zmiany, komentarze do nich, wyniki testów itp.
+Następnie pojawi się miejsce na podanie tytułu i opisu proponowanych zmian i po wciśnięciu zielonego "Create pull request" poniżej, propozycja zostanie wysłana. Travis ponownie wykona wszystkie testy i na stronie głównego projektu pojawi się informacja o nowej propozycji zmian a jego wlaściciel (czyli ja) będzie mógł je zatwierdzić lub odrzucić, przeglądając zmiany, komentarze do nich, wyniki testów itp.
+
+Wszystkie istotne wydarzenia plus ewentualna dyskusja dostępne będą na Gitterze dla wszystkich zainteresowanych:
+
+* https://gitter.im/rsp/java-test-1
 
 Tak mniej więcej wygląda typowa współpraca na GitHubie.
 
-Czekam na pull requesty. :)
+Czekam na pull requesty. :) Gdy ktoś mi naprawi ten błąd to postaram się dodać kolejny. ;)
 
 Słowniczek pojęć
 ----------------
 * **fork** - własna wersja cudzego projektu do dokonywania swoich zmian
 * **pull request** - prośba o dodanie proponowanych zmian do głównej wersji projektu
-
-
-
-... (praca w toku...)
-
-
-
+* **issue** - jakiś problem lub propozycja dotycząca projektu zgłoszona na GitHubie
 
 Issues
 ------
