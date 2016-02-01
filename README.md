@@ -26,6 +26,8 @@ Potrzebne nam będą konta w następujących serwisach, wszystkie bezpłatne:
 
 Żeby zarejestrować się na GitHubie wystarczy podać email oraz wybrać login i hasło. Rejestracja w Gitterze i Travisie nie wymaga nawet tego - wystarczy kilka kliknięć a logowanie odbywa się automatycznie przez GitHub.
 
+Na razie wystarczy nam rejestracja, nic więcej nie trzeba robić. Jeśli posiadasz już te konta to przejdź poniżej do części [Projekt](#projekt).
+
 Rejestracja w GitHubie
 ----------------------
 Jeśli nie masz konta na GitHubie to załóż je bezpłatnie na:
@@ -33,6 +35,10 @@ Jeśli nie masz konta na GitHubie to załóż je bezpłatnie na:
 * https://github.com/join
 
 Podaj email, wybierz login i hasło a nastepnie kliknij potwierdzający link w mailu, który dostaniesz.
+
+Na stronie ustawień profilu można wgrać zdjęcie i podać imię i nazwisko ale nie jest to konieczne:
+
+* https://github.com/settings/profile
 
 Rejestracja w Gitterze
 ----------------------
@@ -44,6 +50,18 @@ Rejestracja na Gitterze wymaga trzech kliknięć:
 
 Nie trzeba niczego wpisywać.
 
+Rejestracja w Travisie
+----------------------
+Podobnie jak z Gitterem, wystarczą trzy kliknięcia:
+
+1. wejdź na https://travis-ci.org/
+2. kliknij "Sign Up"
+3. kliknij "Authorize application"
+
+Również niczego nie trzeba wpisywać.
+
+Projekt
+=======
 
 
 ... (praca w toku...)
