@@ -1,7 +1,7 @@
 Współautorzy
 ============
 
-* Rafał Pocztarski - @rsp
+* Rafał Pocztarski - https://github.com/rsp
 * ...
 
-Dopisz tu siebie i swój nick na GitHubie.
+Dopisz tu siebie i link do profilu na GitHubie.
